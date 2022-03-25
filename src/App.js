@@ -4,7 +4,6 @@ import Charactergrid from './components/Charactergrid';
 import './App.css';
 import Search from './components/Search';
 import {Routes , Route } from 'react-router-dom';
-import Profile from './components/Profile'
 
 
 function App() {
