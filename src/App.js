@@ -41,9 +41,6 @@ return(
 
 <Route path='/' element={ <> <Search getQuery = {q}/> <Charactergrid  items={items}  islodding={islodding} /> </>} >
 </Route>
-<Route path='/name/:char_id' element={<Profile />}></Route>
-{/* <Redirect to ={'/'} /> */}
-
 </Routes>
 
 </>
