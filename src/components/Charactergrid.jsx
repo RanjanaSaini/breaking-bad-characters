@@ -3,7 +3,9 @@ import Characteritem from './Charcteritem';
 
 function Charactergrid({items , islodding}){
 return(
-islodding ? <h1>Lodding ... </h1> : <section className='cards'>
+islodding ? <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '100vh'}}>
+    <h1> I am centered </h1>
+</div>  : <section className='cards'>
 {items.map(item=>(
  <Characteritem key={item.char_id} item={item}></Characteritem>
   
