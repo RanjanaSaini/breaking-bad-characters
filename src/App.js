@@ -31,18 +31,10 @@ useEffect(()=>{
     }).catch((error)=>{
       console.log(error)
     })
-    
-
-
-},[query]
+    },[query]
 
 )
-
-
-
-
-
-  return(
+return(
 <>
 <Header />
 
@@ -55,10 +47,8 @@ useEffect(()=>{
 
 </Routes>
 
-
 </>
-
-  )
+ )
 };
 
 export default App;
